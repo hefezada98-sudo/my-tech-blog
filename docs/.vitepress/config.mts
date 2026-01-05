@@ -13,6 +13,8 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: 'Vue 笔记', link: '/posts/vue-notes' }, // 指向文章
       { text: 'React 探索', link: '/posts/react-learning' },
+      { text: '面试题', link: '/posts/mian' },
+
       { text: '关于我', link: '/about' }
     ],
 
@@ -22,7 +24,8 @@ export default defineConfig({
         text: '技术文章',
         items: [
           { text: 'Vue 3 踩坑记录', link: '/posts/vue-notes' },
-          { text: 'React Hooks 初体验', link: '/posts/react-learning' }
+          { text: 'React Hooks 初体验', link: '/posts/react-learning' },
+          { text: '面试题', link: '/posts/mian' }
         ]
       }
     ],

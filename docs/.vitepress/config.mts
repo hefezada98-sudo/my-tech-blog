@@ -24,15 +24,23 @@ export default defineConfig({
         text: '技术文章',
         items: [
           { text: 'Vue 3 踩坑记录', link: '/posts/vue-notes' },
-          { text: 'React Hooks 初体验', link: '/posts/react-learning' },
+          { text: 'React Hooks 初体验', link: '/posts/react-learning' }
+        
+        ]
+      },
+      {
+        text: '八股',
+        items: [
+       
           { text: '面试题', link: '/posts/mian' }
         ]
       }
+      
     ],
 
     // 3. 社交链接 (显示在右上角)
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/你的用户名' }
+      { icon: 'github', link: 'https://github.com/hefezada98-sudo' }
     ]
   }
 })
